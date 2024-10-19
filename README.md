@@ -22,26 +22,34 @@ To build GZIP-Clone, you need:
 
 Clone the repository and build the project:
 
-git clone https://github.com/yourusername/gzip-clone.git
+git clone https://github.com/kaitakami/gzip-clone.git
 cd gzip-clone
 make
 
 ## Usage
 
 Compress a file:
+```
 ./gzip-clone -c file.txt
+```
 
 Decompress a file:
+```
 ./gzip-clone -d file.txt.gz
+```
 
 For more options, run:
+```
 ./gzip-clone --help
+```
 
 ## Testing
 
 To run the test suite:
 
+```
 make test
+```
 
 ## Contributing
 
